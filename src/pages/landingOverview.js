@@ -49,7 +49,7 @@ const LandingOverview = (props) => (
                         <img src={pic09} alt="" />
                     </Link>
                     <div className="content">
-                        <div className="inner">
+                        <div style="align:right" className="inner">
                             <header className="major">
                                 <h3>Developer</h3>
                             </header>
