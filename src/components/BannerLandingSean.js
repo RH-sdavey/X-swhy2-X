@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BannerLanding = (props) => (
+const BannerLandingSean = (props) => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
