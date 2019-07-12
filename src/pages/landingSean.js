@@ -49,7 +49,7 @@ const LandingSean = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/sean2" className="image">
                         <img src={weez} alt="" />
                     </Link>
                     <div className="content">
@@ -59,7 +59,7 @@ const LandingSean = (props) => (
                             </header>
                             <p>(TODO) put your description here mate</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="/sean2" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
