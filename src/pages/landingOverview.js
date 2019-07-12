@@ -49,14 +49,14 @@ const LandingOverview = (props) => (
                         <img src={pic09} alt="" />
                     </Link>
                     <div className="content">
-                        <div style="align:right" className="inner">
+                        <div className="inner">
                             <header className="major">
-                                <h3>Developer</h3>
+                                <h3 style="align:right">Developer</h3>
                             </header>
-                            <p>Developer description here.</p>
-                            <p>Pros and cons</p>
+                            <p style="align:right" >Developer description here.</p>
+                            <p style="align:right">Pros and cons</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Become a developer!</Link></li>
+                                <li style="align:right"><Link to="/generic" className="button">Become a developer!</Link></li>
                             </ul>
                         </div>
                     </div>
