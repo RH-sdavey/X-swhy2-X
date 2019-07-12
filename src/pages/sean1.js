@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import pic02 from '../assets/images/pic02.jpg'
+import sean from '../assets/images/sean.jpg'
 
 const Generic = (props) => (
     <Layout>
@@ -17,7 +17,15 @@ const Generic = (props) => (
                     <header className="major">
                         <h1>Sean</h1>
                     </header>
-                    <span className="image main"><img src={pic02}></span>
+                    <div className="box alt">
+                        <div className="grid-wrapper">
+                            <div className="col-4">
+                                <span className="image fit">
+                                    <img src={sean} alt="" />
+                                </span>
+                            </div>
+                        </div>
+                    </div>
                     <p>Sean bio here</p>
                 </div>
             </section>
