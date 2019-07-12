@@ -7,6 +7,7 @@ import BannerLandingSean from '../components/BannerLandingSean'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+import sean from '..assets/images/sean.jpg'
 
 const LandingSean = (props) => (
     <Layout>
@@ -32,7 +33,7 @@ const LandingSean = (props) => (
             <section id="two" className="spotlights">
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
+                        <img src={sean} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
