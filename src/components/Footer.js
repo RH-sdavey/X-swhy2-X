@@ -11,7 +11,7 @@ const Footer = (props) => (
                 <li><a href="#" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; sean-will-help-you</li><li>Design: Sean</a></li>
+                <li>&copy; sean-will-help-you</li><li>Design: Sean</li>
             </ul>
         </div>
     </footer>
