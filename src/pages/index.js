@@ -34,7 +34,7 @@ class HomeIndex extends React.Component {
                                 <h3>Sean</h3>
                                 <p>Who we are and what we do</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/landingSean" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
