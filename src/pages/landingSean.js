@@ -33,7 +33,7 @@ const LandingSean = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/sean1" className="image">
                         <img src={sean} alt="" />
                     </Link>
                     <div className="content">
@@ -43,7 +43,7 @@ const LandingSean = (props) => (
                             </header>
                             <p>In a previous life I was a chef, in a Japanese restaurant in New Zealand. Now I'm a Java Software Developer in Czech Republic. I've worked as a Sysadmin, Network Admin, QA Tester and I'm certifed in many other IT areas. I did all this in less than 2 years. With our help, you can do it in less than 1.</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="/sean1" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
