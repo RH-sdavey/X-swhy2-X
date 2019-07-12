@@ -51,12 +51,12 @@ const LandingOverview = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3 style="align:right">Developer</h3>
+                                <h3>Developer</h3>
                             </header>
-                            <p style="align:right" >Developer description here.</p>
-                            <p style="align:right">Pros and cons</p>
+                            <p>Developer description here.</p>
+                            <p>Pros and cons</p>
                             <ul className="actions">
-                                <li style="align:right"><Link to="/generic" className="button">Become a developer!</Link></li>
+                                <li><Link to="/generic" className="button">Become a developer!</Link></li>
                             </ul>
                         </div>
                     </div>
