@@ -17,7 +17,7 @@ const Generic = (props) => (
                     <header className="major">
                         <h1>Sean</h1>
                     </header>
-                    <span className="image main"><img src={sean} alt="" /></span>
+                    <span className="image main"><img src={sean} style="width:4em;height:4em;border:0;" alt="" /></span>
                     <p>Sean bio here</p>
                 </div>
             </section>
