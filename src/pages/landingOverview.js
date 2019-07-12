@@ -15,7 +15,7 @@ const LandingOverview = (props) => (
             <meta name="description" content="What do you want to be" />
         </Helmet>
 
-        <BannerLandingSean />
+        <BannerLandingOverview />
 
         <div id="main">
             <section id="one">
