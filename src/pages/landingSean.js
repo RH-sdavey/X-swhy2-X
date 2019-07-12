@@ -11,19 +11,19 @@ import pic10 from '../assets/images/pic10.jpg'
 const Landing = (props) => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
-            <meta name="description" content="Landing Page" />
+            <title>Who is Sean</title>
+            <meta name="description" content="Who is Sean" />
         </Helmet>
 
-        <BannerLanding />
+        <BannerLandingSean />
 
         <div id="main">
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Sed amet aliquam</h2>
+                        <h2>Who we are and what we do</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <p>Well, we are Sean and we want to help you change your career, to work in IT. We both changed our careers, and with a little work, supported by us, you can too. Who knows, maybe in a few weeks, you can make your own website to help others too. Our help is <strong> completely free </strong> and as always will be!</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
@@ -34,9 +34,9 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Orci maecenas</h3>
+                                <h3>Sean</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>In a previous life I was a chef, in a Japanese restaurant in New Zealand. Now I'm a Java Software Developer in Czech Republic. I've worked a Sysadmin, Network Admin, QA Tester and I'm certifed in many other IT areas. I did all this in less than 2 years.</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
@@ -50,9 +50,9 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Rhoncus magna</h3>
+                                <h3>Sean</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>(TODO) put your description here mate</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
