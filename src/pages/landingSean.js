@@ -8,6 +8,7 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 import sean from '../assets/images/sean.jpg'
+import weez from '../assets/images/weez.jpg'
 
 const LandingSean = (props) => (
     <Layout>
@@ -49,7 +50,7 @@ const LandingSean = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
+                        <img src={weez} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
