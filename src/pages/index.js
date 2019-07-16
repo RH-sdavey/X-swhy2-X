@@ -76,7 +76,7 @@ class HomeIndex extends React.Component {
                                 <h3>Sean2</h3>
                                 <p>Stufjust google...</p>
                             </header>
-                            <Link to="/generic" className="link primary"></Link>
+                            <Link to="/java" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
