@@ -39,51 +39,49 @@ class HomeIndex extends React.Component {
                         <Link to="/landingSean" className="link primary"></Link>
                     </article>
                 </div>
-
-                        <article style={{backgroundImage: `url(${pic02})`}}>
-                            <header className="major">
-                                <h3>So what do you want to be?</h3>
-                                <p>Click here for an overview of our paths</p>
+                    <div ClassName="grid-wrapper">
+                    <div ClassName="col-12">
+                        <section id="two">
+                            <article style={{backgroundImage: `url(${pic02})`}}>
+                                <header className="major">
+                                    <h3>C.A.R.E.E.R</h3>
+                                <p>Find the career path that is right for you!</p> 
                             </header>
-                            <Link to="/landingOverview" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
-                            <header className="major">
-                                <h3>Sysadmin</h3>
-                                <p>Won't somebody please think of the uptime...</p>
+                        <Link to="/landingOverview" className="link primary"></Link>
+                     </article>
+                </div>
+                    <div ClassName="grid-wrapper">
+                    <div ClassName="col-12">
+                        <section id="three">
+                            <article style={{backgroundImage: `url(${pic03})`}}>
+                                <header className="major">
+                                    <h3>L.E.A.R.N</h3>
+                                <p>All the education and study materials you will need...in one place!</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
-                            <header className="major">
-                                <h3>Developer</h3>
-                                <p>Make all the things!</p>
+                        <Link to="/landing" className="link primary"></Link>
+                    </article>
+                </div>
+                    <div ClassName="grid-wrapper">
+                    <div ClassName="col-12">
+                        <section id="four"> 
+                            <article style={{backgroundImage: `url(${pic06})`}}>
+                                <header className="major">
+                                    <h3>O.T.H.E.R</h3>
+                                <p>Other</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
+                        <Link to="/landing" className="link primary"></Link>
+                    </article>
+                </div>
+                </section>
+                    <div ClassName="grid-wrapper">
+                    <div ClassName="col-12">
+                        <section id="five">
                             <header className="major">
-                                <h3>Devops</h3>
-                                <p>Your wildest dreams come true...</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Other</h3>
-                                <p>Stuff that all IT people just google...</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                    </section>
-                    <section id="two">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Interesting Links</h2>
-                            </header>
-                            <p>I pity the fool who don't read my links!</p>
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <h2>L.I.N.K.S</h2>
+                                    </header>
+                                        <p>Links</p>
+                                    <ul className="actions">
+                                <li><Link to="/landing" className="button next">Click Here</Link></li>
                             </ul>
                         </div>
                     </section>
