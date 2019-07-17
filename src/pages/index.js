@@ -10,6 +10,7 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
+import pic24 from '../assets/images/pic24.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -17,7 +18,7 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Sean will help you"
+                    title="Sean Will Help You"
                     meta={[
                         { name: 'description', content: 'Helping you' },
                         { name: 'keywords', content: 'Help, you' },
@@ -26,16 +27,19 @@ class HomeIndex extends React.Component {
                 </Helmet>
 
                 <Banner />
-
-                <div id="main">
-                    <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
-                            <header className="major">
-                                <h3>Sean</h3>
+                    <div className="grid-wrapper">
+                    <div className="col-12">
+                    <div id="main">
+                        <section id="one">
+                            <article style={{backgroundImage: `url(${pic24})`}}>
+                                <header className="major">
+                                    <h3>S.E.A.N</h3>
                                 <p>Who we are and what we do</p>
                             </header>
-                            <Link to="/landingSean" className="link primary"></Link>
-                        </article>
+                        <Link to="/landingSean" className="link primary"></Link>
+                    </article>
+                </div>
+
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>So what do you want to be?</h3>
