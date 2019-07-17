@@ -17,7 +17,7 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Sean will not help you"
+                    title="Sean will help you"
                     meta={[
                         { name: 'description', content: 'Helping you' },
                         { name: 'keywords', content: 'Help, you' },
