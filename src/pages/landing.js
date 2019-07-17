@@ -7,6 +7,7 @@ import BannerLanding from '../components/BannerLanding'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+import Me from '../assets/images/Me.jpg'
 
 const Landing = (props) => (
     <Layout>
@@ -37,6 +38,23 @@ const Landing = (props) => (
                                 <h3>Sean</h3>
                             </header>
                             <p>In a previous life I was a chef, in a Japanese restaurant in New Zealand. Now I'm a Java Software Developer in Czech Republic. I've worked a Sysadmin, Network Admin, QA Tester and I'm certifed in many other IT areas. I did all this in less than 2 years.</p>
+                            <ul className="actions">
+                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                 <section id="two" className="spotlights">
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={Me} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Sean</h3>
+                            </header>
+                            <p> Three years ago I just started working as a window cleaner after being unemployed for nearly 2 years. I came to Brno to visit my then girlfriend and managed to secure an interview at a well known IT company and somehow got the job. I had no career aspirations or goals, I was lost and had no idea what I wanted from life, I was just happy to have a job. Shortly after starting I met Sean who was so enthuasiastic and motivating, he wanted to teach me everything he could. Now 6 months later I am a competent Sysadmin with a range of skills and knowledge eager to pass onto the next person. Sean helped me to realize that my passion was in IT specifically Linux and since then has pushed me to be better and helped me in everyway possible and since that first day I have never looked back. I know and understand things I never even knew existed before and the great part is there is always more to learn. you're always challenging yourself to become better which is a beautiful thing!</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
