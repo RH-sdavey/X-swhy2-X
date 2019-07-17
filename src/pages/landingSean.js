@@ -23,9 +23,9 @@ const LandingSean = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Who we are and what we do fool</h2>
+                        <h2>Who we are and what we do</h2>
                     </header>
-                    <p>Well, we are Sean and we are gay and we want to help you change your career, to work in IT< br/> 
+                    <p>Well, we are Sean and we want to help you change your career, to work in IT< br/> 
                        We both changed our careers, and with a little work, supported by us, you can too<br/> 
                        Who knows, maybe in a few weeks, you can make your own website to help others too<br/> 
                        Our help is <strong> completely free </strong> and always will be!</p>
