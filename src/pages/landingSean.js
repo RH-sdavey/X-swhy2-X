@@ -4,11 +4,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLandingSean from '../components/BannerLandingSean'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
 import sean from '../assets/images/sean.jpg'
 import weez from '../assets/images/weez.jpg'
+import swhy7 from '../assets/images/swhy7.jpg'
 
 const LandingSean = (props) => (
     <Layout>
@@ -23,12 +21,12 @@ const LandingSean = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Who we are and what we do fool</h2>
+                        <h2>Who we are and what we do</h2>
                     </header>
-                    <p>Well, we are Sean and we want to help you change your career, to work in IT< br/> 
-                       We both changed our careers, and with a little work, supported by us, you can too<br/> 
-                       Who knows, maybe in a few weeks, you can make your own website to help others too<br/> 
-                       Our help is <strong> completely free </strong> and always will be!</p>
+                    <p>Well, we are Sean and we want to help you change your career, to work in IT< br/>
+                       With a little work, supported by us, you can change your life<br/>
+                       Follow our<strong> free </strong>tutorials on this site, to learn everything you need to know<br/>
+                       to get your start in the IT industry</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
@@ -57,7 +55,8 @@ const LandingSean = (props) => (
                             <header className="major">
                                 <h3>Sean</h3>
                             </header>
-                            <p>(TODO) put your description here mate</p>
+                            <p>Three years ago I was working as a window cleaner when I came to visit Brno, Czech Republic and managed to secure an interview at a well known IT company and somehow got the (non-technical) job. I had no career aspirations or goals, I was lost and had no idea what I wanted from life, I was just happy to have a job. Shortly after starting I met Sean who was so enthuasiastic and motivating, he wanted to teach me everything he could. Now 6 months later I am a competent Sysadmin with a range of skills and knowledge eager to pass onto the next person. Sean helped me to realize that my passion was in IT specifically Linux and since then has pushed me to be better and helped me in every way possible and since that first day I have never looked back. I know and understand things I never even knew existed before and the great part is there is always more to learn. you're always challenging yourself to become better,
+                            which is a beautiful thing!</p>
                             <ul className="actions">
                                 <li><Link to="/sean2" className="button">Learn more</Link></li>
                             </ul>
@@ -66,14 +65,14 @@ const LandingSean = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
+                        <img src={swhy7} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>How we're gonna help you</h3>
+                                <h3>What we need from you</h3>
                             </header>
-                            <p>Description of our sites goals here.</p>
+                            <p>What kind of person works in IT, and what we expect from you during these tutorials</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>

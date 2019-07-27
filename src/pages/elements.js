@@ -206,7 +206,7 @@ const Elements = (props) => (
                                             </tr>
                                             <tr>
                                                 <td>Item3</td>
-                                                <td> Morbi faucibus arcu accumsan lorem.</td>
+                                                <td> Moerbi faucibus arcu accumsan lorem.</td>
                                                 <td>29.99</td>
                                             </tr>
                                             <tr>
