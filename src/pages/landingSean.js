@@ -25,9 +25,9 @@ const LandingSean = (props) => (
                     <header className="major">
                         <h2>Who we are and what we do fool</h2>
                     </header>
-                    <p>Well, we are Sean and we want to help you change your career, to work in IT< br/> 
-                       We both changed our careers, and with a little work, supported by us, you can too<br/> 
-                       Who knows, maybe in a few weeks, you can make your own website to help others too<br/> 
+                    <p>Well, we are Sean and we want to help you change your career, to work in IT< br/>
+                       We both changed our careers, and with a little work, supported by us, you can too<br/>
+                       Who knows, maybe in a few weeks, you can make your own website to help others<br/>
                        Our help is <strong> completely free </strong> and always will be!</p>
                 </div>
             </section>
@@ -57,7 +57,7 @@ const LandingSean = (props) => (
                             <header className="major">
                                 <h3>Sean</h3>
                             </header>
-                            <p>(TODO) put your description here mate</p>
+                            <p>Three years ago I just started working as a window cleaner after being unemployed for nearly 2 years. I came to Brno to visit my then girlfriend and managed to secure an interview at a well known IT company and somehow got the job. I had no career aspirations or goals, I was lost and had no idea what I wanted from life, I was just happy to have a job. Shortly after starting I met Sean who was so enthuasiastic and motivating, he wanted to teach me everything he could. Now 6 months later I am a competent Sysadmin with a range of skills and knowledge eager to pass onto the next person. Sean helped me to realize that my passion was in IT specifically Linux and since then has pushed me to be better and helped me in everyway possible and since that first day I have never looked back. I know and understand things I never even knew existed before and the great part is there is always more to learn. you're always challenging yourself to become better which is a beautiful thing!</p>
                             <ul className="actions">
                                 <li><Link to="/sean2" className="button">Learn more</Link></li>
                             </ul>

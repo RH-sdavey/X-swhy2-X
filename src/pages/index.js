@@ -10,6 +10,7 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
+import pic24 from '../assets/images/pic24.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -29,16 +30,16 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${pic24})`}}>
                             <header className="major">
-                                <h1>Sean</h1>
+                                <h1>SEAN</h1>
                                 <p>Who we are and what we do</p>
                             </header>
                             <Link to="/landingSean" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>So what do you want to be?</h3>
+                                <h3>Who do YOU want to be?</h3>
                                 <p>Click here for an overview of our paths</p>
                             </header>
                             <Link to="/landingOverview" className="link primary"></Link>
@@ -70,13 +71,6 @@ class HomeIndex extends React.Component {
                                 <p>Stuff that all IT people just google...</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
-                        </article>
-                    <article style={{backgroundImage: `url(${pic01})`}}>
-                            <header className="major">
-                                <h3>Sean2</h3>
-                                <p>Stufjust google...</p>
-                            </header>
-                            <Link to="/java" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
