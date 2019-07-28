@@ -7,8 +7,9 @@ const BannerLandingOverview = (props) => (
                 <h1>Sean</h1>
             </header>
             <div className="content">
-                <p>So what do you want to be?<br />
-                Description here</p>
+            <p>Sean is actually two guys, called Sean<br />
+            and we want to help you be the best you can be.<br />
+            You have the power to change your life, right now!</p>
             </div>
         </div>
     </section>
