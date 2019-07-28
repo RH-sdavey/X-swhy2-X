@@ -102,11 +102,12 @@ const LandingSean = (props) => (
                             <header className="major">
                                 <h3>You</h3>
                             </header>
-                            <p>If you're on this page, chances are you want a change. Change of career, place of work, lifestyle or even country (or your one of our friends, hi!)<br/>
+                            <p>If you're on this page, chances are you want a change. Change of career, place of work, lifestyle or even country <br/>
+                            (or your one of our friends, hi!)<br/>
                             The truth is no single <strong>type</strong> of person that works in IT. This is a field of work that attracts that extrovert, introvert,
-                            short, tall, happy, grumpy, crazy and lazy. One thing we are all doing is changing the world, for better or worse, in our own small way.<br/>
+                            short, tall, happy, grumpy, crazy and lazy. One thing we are all doing is changing the world, for better or worse, in our own small way.<br/><br/>
                             Full discosure, this is not an easy career change, you can't just "bumble" your way through it, it is hard work. For that exact reason, we created this
-                            website... to take some of the workload from you. We want to help, no strings and no costs, <strong>none!</strong><br/>
+                            website... to take some of the workload from you. We want to help, no strings and no costs, <strong>none!</strong><br/><br/>
                             With the skills we can teach you here, you can feel assured when you go for your first IT interview, you will know what your doing!
                             </p>
                             <ul className="actions">
