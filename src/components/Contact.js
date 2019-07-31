@@ -36,7 +36,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-slack"></span>
                         <h3>Slack</h3>
-                        <a href="https://sean-will-help-you.slack.com/messages/CLVTP481M">slack: sean-will-help-you</a>
+                        <a href="https://sean-will-help-you.slack.com/">slack: sean-will-help-you</a>
                     </div>
                 </section>
                 <section>
