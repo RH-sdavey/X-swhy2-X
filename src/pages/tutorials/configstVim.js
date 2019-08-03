@@ -17,14 +17,14 @@ const Generic = (props) => (
                     <header className="major">
                         <h1>How to configure Splits and Tabs in Vim</h1>
                     </header>
-                    <span className="image main"><img src={swhyvim} alt="" /></span>
+                    <span className="image maintutorial"><img src={swhyvim} alt="" /></span>
                     <div className="col-12">
                       <h3>Sometimes you need to open multiple files in VIM and quickly move between them, rather than opening, editing, closing, reopening etc. Lets learn how,</h3>
                       <h4>Tabs in VIM</h4>
                       <div className="col-6">
                         <p>Open any file in the VIM editor</p>
                         <pre><code>vim /etc/hosts</code></pre>
-                        
+
                       </div>
                     </div>
                 </div>
