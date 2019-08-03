@@ -4,11 +4,11 @@ const BannerLanding = (props) => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
-                <h1>Sean, gimme some links Bro!</h1>
+                <h1>Sean, what have you learned recently?</h1>
             </header>
             <div className="content">
-                <p>You've taken everything we have to give,<br />
-                so scroll down for links to some further reading!</p>
+                <p>Here you'll find  regular updates with tutorials<br />
+                of things that we learned recently,and might be interesting for you</p>
             </div>
         </div>
     </section>
