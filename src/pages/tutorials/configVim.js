@@ -1,8 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Layout from '../components/layout'
+import Layout from '../../components/layout'
 
-import swhy8 from '../assets/images/swhy8.jpg'
+import swhy-vim from '../../assets/images/swhy-vim.jpg'
 
 const Generic = (props) => (
     <Layout>

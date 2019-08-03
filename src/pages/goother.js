@@ -28,7 +28,7 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/configVim" className="image">
+                    <Link to="/tutorials/configVim" className="image">
                         <img src={swhy6} alt="" />
                     </Link>
                     <div className="content">
