@@ -27,7 +27,7 @@ const Generic = (props) => (
                       </div>
                       <div className="col-6">
                         <p>Open any file in the VIM editor</p>
-                        <pre><code>vim <strong>!filenamehere</stong></code></pre>
+                        <pre><code>vim <strong>!filenamehere</strong></code></pre>
                         <p>Vim opens with your chosen file</p>
                       </div>
                       <div className="col-6"></div>
