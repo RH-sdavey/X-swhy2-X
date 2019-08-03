@@ -28,17 +28,17 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/tutorials/configVim" className="image">
+                    <Link to="/tutorials/configstVim" className="image">
                         <img src={swhy6} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>VIM Profiles</h3>
+                                <h3>VIM Splits and Tabs</h3>
                             </header>
-                            <p>How to configure profiles in VIM</p>
+                            <p>How to configure splits and tabs in VIM</p>
                             <ul className="actions">
-                                <li><Link to="/configVim" className="button">Learn more</Link></li>
+                                <li><Link to="/tutorials/configstVim" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
