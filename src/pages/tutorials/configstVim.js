@@ -40,7 +40,7 @@ const Generic = (props) => (
 
                       <div className="col-6">
                         <p>While in VIM, press the following keys</p>
-                        <blockquote> you can press tab after typing :tabedit to see available files</quoteblock>
+                        <blockquote> you can press tab after typing :tabedit to see available files</blockquote>
                         <pre><code><strong>esc</strong>  :tabedit <strong>!filenamehere!</strong>  <strong>Enter</strong></code></pre>
                         <p>Vim opens your new file in a new tab</p>
 
