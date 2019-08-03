@@ -20,16 +20,18 @@ const Generic = (props) => (
                     <span className="image maintutorial"><img src={swhyvim} alt="" /></span>
                     <div className="grid-wrapper">
                       <div className="col-12">
-                        <h3>Sometimes you need to open multiple files in VIM and quickly move between them, rather than opening, editing, closing, reopening etc. Lets learn how,</h3>
+                        <h3>Sometimes you need to open multiple files in one VIM window and quickly move between them,  Lets learn how,</h3>
                         <h4>Tabs in VIM</h4>
                       </div>
                       <div className="col-6">
                         <p>Open any file in the VIM editor</p>
                         <pre><code>vim /etc/hosts</code></pre>
+                        <br/><br/>
+                        <p>While in VIM, press the following keys</p>
+                        <pre><code><strong>esc</strong>  :tabedit <strong>!filenamehere!</strong>  <strong>Enter</strong></code></pre>
                       </div>
                       <div className="col-6">
-                        <p>Image here</p>
-                        <span className="image fit"><img src={swhyvim} alt="" /></span>
+                        <span className="image fittutorial"><img src={swhyvim} alt="" /></span>
                       </div>
                     </div>
                 </div>

@@ -75,4 +75,16 @@
 				margin: (_size(element-margin) * 0.75) 0;
 			}
 		}
+
+		&.fittutorial {
+			display: block;
+			margin: 0 0 _size(element-margin) 0;
+			width: 25%;
+			height: 25%
+
+			img {
+				width: 25%;
+			  height: 25%
+			}
+		}
 	}
