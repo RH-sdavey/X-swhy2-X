@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: "Sean Will Help You",
+    author: "Sean Davey",
+    description: "Sean Will Help You - Tutorials"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Sean Will Help You',
+        short_name: 'Sean',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',

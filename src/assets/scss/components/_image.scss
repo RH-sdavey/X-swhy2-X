@@ -59,4 +59,32 @@
 				margin: (_size(element-margin) * 0.75) 0;
 			}
 		}
+
+		&.maintutorial {
+			display: block;
+			margin: (_size(element-margin) * 1.25) 0;
+			width: 50%;
+			height: 50%
+
+			img {
+				width: 50%;
+			  height: 50%
+			}
+
+			@include breakpoint(small) {
+				margin: (_size(element-margin) * 0.75) 0;
+			}
+		}
+
+		&.fittutorial {
+			display: block;
+			margin: 0 0 _size(element-margin) 0;
+			width: 90%;
+			height: 45%;
+
+			img {
+				width: 90%;
+			  height: 45%;
+			}
+		}
 	}

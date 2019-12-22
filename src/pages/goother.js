@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLandingOther from '../components/BannerLandingOther'
 
-import pic08 from '../assets/images/pic08.jpg'
+import swhy6 from '../assets/images/swhy6.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
@@ -12,7 +12,7 @@ const Landing = (props) => (
     <Layout>
         <Helmet>
             <title>Who is Sean</title>
-            <meta name="description" content="Who is Sean" />
+            <meta name="description" content="SWHY" />
         </Helmet>
 
         <BannerLandingOther />
@@ -21,24 +21,24 @@ const Landing = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Other</h2>
+                        <h2>Have a look</h2>
                     </header>
-                    <p>OtherOtherOtherOtherOther</p>
+                    <p>Scroll down to search through our updates</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
+                    <Link to="/tutorials/configstVim" className="image">
+                        <img src={swhy6} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Other</h3>
+                                <h3>VIM Splits and Tabs</h3>
                             </header>
-                            <p>OtherOtherOtherOtherOtherOther</p>
+                            <p>How to configure splits and tabs in VIM</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="/tutorials/configstVim" className="button">Learn more</Link></li>
                             </ul>
                         </div>
                     </div>
